@@ -31,17 +31,16 @@ POST  /api/auth/register
 POST  /api/auth/login -> return jwt token
 
 
-GET   /api/users      (protected)
-GET   /api/users/{id} (protected)
-POST  /api/users      (protected)
-PUT   /api/users/{id} (protected)
-DELETE /api/users/{id} (protected)
+- GET   /api/users      (protected)
+- GET   /api/users/{id} (protected)
+- POST  /api/users      (protected)
+- PUT   /api/users/{id} (protected)
+- DELETE /api/users/{id} (protected)
 
-GET   /posts/{Post}     (protected)
-GET   /api/users/{id} (protected)
-
-POST  /api/posts/{userId}  (protected)
-PUT   /api/posts/{id} (protected)
-DELETE /api/posts/{id} (protected)
+- GET   /posts/{Post}     (protected)
+- GET   /api/users/{id} (protected)
+- POST  /api/posts/{userId}  (protected)
+- PUT   /api/posts/{id} (protected)
+- DELETE /api/posts/{id} (protected)
 
 
